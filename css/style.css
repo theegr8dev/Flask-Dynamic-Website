@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all o, .4s ease;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* NAVBAR */
+
+.top-nav {
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: #fff;
+    color: #ff4d29;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+    color: #ff4d29 !important;
+
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+
+.navbar-brand span {
+    color: #ff4d29;
+}
+
+/* Btn */
+.btn {
+    padding: 9px 24px;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: #ffffff;
+    border-color: #ff4d29;
+}
+
+.btn-brand:hover {
+    color: #ffffff;
+    background-color: #d63e1D;
+}
+
+
+
+/* Slider */
+.slide1 {
+    /* setttng an overlay on the image */
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 33, 50, 0.4)), url(../assets/bg_banner1.jpg);
+}
+
+.slide2 {
+    /* setttng an overlay on the image */
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 33, 50, 0.4)), url(../assets/bg_banner2.jpg);
+}
+
+/* Owl caarousel designing */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    font-size: 32px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background-color: #ff4d29 !important;
+    border-radius: ;
+
+}
