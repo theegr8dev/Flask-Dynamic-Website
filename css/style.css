@@ -428,3 +428,9 @@ footer .social-links a {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+/* Form  */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ff4d29;
+}
