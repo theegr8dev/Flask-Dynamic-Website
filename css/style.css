@@ -166,3 +166,17 @@ section {
     width: 90px;
     margin-right: 24px;
 }
+
+/* MileStone */
+#milestone {
+    background: linear-gradient(rgba(255, 77, 41, 0.9), rgba(255, 77, 41, 0.9));
+}
+
+#milestone .display-4,
+#milestone p {
+    color: #ffffff;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
