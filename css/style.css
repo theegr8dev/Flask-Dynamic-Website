@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700 !important;
+    font-weight: 700;
     color: #092032;
 }
 
@@ -21,6 +21,10 @@ a {
     text-decoration: none;
     transition: all o, .4s ease;
     font-weight: 500;
+}
+
+a:hover {
+    color: #ff4d29;
 }
 
 img {
@@ -128,6 +132,10 @@ section {
 
 
 /* Slider */
+#hero-slider h1 {
+    font-weight: 700 !important;
+}
+
 .slide1 {
     /* setttng an overlay on the image */
     background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 33, 50, 0.4)), url(../assets/bg_banner1.jpg);
@@ -353,4 +361,70 @@ section {
 .owl-dot.active span {
     background-color: #ff4d29 !important;
 
+}
+
+/* Blog Post */
+.blog-post {
+    position: relative;
+}
+
+.blog-post .tag {
+    padding: 4px 12px;
+    background-color: #ff4d29;
+    color: #ffffff;
+    border-radius: 100px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.blog-post a {
+    font-weight: 700;
+}
+
+.blog-post img {
+    margin-bottom: 12px;
+}
+
+.blog-post small {
+    color: #ff4d29;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.blog-post h4 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    /* padding-bottom: 40px; */
+    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 33, 50, 0.8)), url(../assets/bg_banner1.jpg);
+}
+
+footer .navbar-brand {
+    color: #ffffff;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
+}
+
+footer .social-links a {
+    margin-left: 5px;
+    margin-right: 5px;
 }
