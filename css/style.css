@@ -27,6 +27,11 @@ img {
     width: 100%;
 }
 
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .bg-cover {
     background-position: center !important;
     background-size: cover !important;
@@ -148,6 +153,16 @@ img {
 .owl-next:hover,
 .owl-prev:hover {
     background-color: #ff4d29 !important;
-    border-radius: ;
+}
 
+
+/* Info Box */
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.info-box img {
+    width: 90px;
+    margin-right: 24px;
 }
