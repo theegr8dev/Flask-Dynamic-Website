@@ -1,0 +1,6 @@
+.settings/
+venv/
+.gitignore.swp
+.project
+.pydevproject
+__pycache__/

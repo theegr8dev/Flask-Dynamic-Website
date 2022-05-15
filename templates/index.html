@@ -6,11 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/boxicons.min.css">
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/boxicons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
 
     <title>Prizima Bootstap 5 template</title>
 </head>
@@ -122,30 +124,30 @@
                 <div class="col-lg-5">
                     <div class="row">
                         <div class="col-12 info-box">
-                            <img src="./assets/icon4.png" alt="">
+                            <img src="{{ url_for('static', filename='assets/icon4.png') }}" alt="">
                             <div>
                                 <h5>Digital Marketing</h5>
-                                <p>It is a long established fact that a reader will be distracted by thr
+                                <p>It is a long established fact that a reader will be distracted by the
                                     readable
                                     content of a page</p>
                             </div>
                         </div>
 
                         <div class="col-12 info-box mt-4">
-                            <img src="./assets/icon5.png" alt="">
+                            <img src="{{ url_for('static', filename='assets/icon5.png') }}" alt="">
                             <div>
                                 <h5>Digital Marketing</h5>
-                                <p>It is a long established fact that a reader will be distracted by thr
+                                <p>It is a long established fact that a reader will be distracted by the
                                     readable
                                     content of a page</p>
                             </div>
                         </div>
 
                         <div class="col-12 info-box mt-4">
-                            <img src="./assets/icon6.png" alt="">
+                            <img src="{{ url_for('static', filename='assets/icon6.png') }}" alt="">
                             <div>
                                 <h5>Digital Marketing</h5>
-                                <p>It is a long established fact that a reader will be distracted by thr
+                                <p>It is a long established fact that a reader will be distracted by the
                                     readable
                                     content of a page</p>
                             </div>
@@ -154,7 +156,7 @@
                 </div>
 
                 <div class="col-lg-5">
-                    <img src="./assets/about.png" alt="">
+                    <img src="{{ url_for('static', filename='assets/about.png') }} " alt="">
                 </div>
             </div>
         </div>
@@ -204,7 +206,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-box">
-                        <img src="./assets/icon1.png" alt="">
+                        <img src="{{ url_for('static', filename='assets/icon1.png') }}" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                             piece of
@@ -214,7 +216,7 @@
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-box">
-                        <img src="./assets/icon2.png" alt="">
+                        <img src="{{ url_for('static', filename='assets/icon2.png') }}" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                             piece of
@@ -224,7 +226,7 @@
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-box">
-                        <img src="./assets/icon3.png" alt="">
+                        <img src="{{ url_for('static', filename='assets/icon3.png') }}" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                             piece of
@@ -234,7 +236,7 @@
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-box">
-                        <img src="./assets/icon4.png" alt="">
+                        <img src="{{ url_for('static', filename='assets/icon4.png') }}" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                             piece of
@@ -244,7 +246,7 @@
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-box">
-                        <img src="./assets/icon5.png" alt="">
+                        <img src="{{ url_for('static', filename='assets/icon5.png') }}" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                             piece of
@@ -254,7 +256,7 @@
 
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-box">
-                        <img src="./assets/icon6.png" alt="">
+                        <img src="{{ url_for('static', filename='assets/icon6.png') }}" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                             piece of
@@ -282,7 +284,7 @@
 
         <div id="project-slider" class="owl-theme owl-carousel">
             <div class="project">
-                <img src="./assets/project1.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/project1.jpg') }}" alt="">
                 <div class="overlay"></div>
                 <div class="content">
                     <h1>Project Title</h1>
@@ -291,7 +293,7 @@
             </div>
 
             <div class="project">
-                <img src="./assets/project2.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/project2.jpg') }}" alt="">
                 <div class="overlay"></div>
                 <div class="content">
                     <h1>Project Title</h1>
@@ -299,7 +301,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="./assets/project3.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/project3.jpg') }}" alt="">
                 <div class="overlay"></div>
                 <div class="content">
                     <h1>Project Title</h1>
@@ -307,7 +309,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="./assets/project4.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/project4.jpg') }}" alt="">
                 <div class="overlay"></div>
                 <div class="content">
                     <h1>Project Title</h1>
@@ -334,7 +336,7 @@
                 <div class="col-lg-4">
                     <div class="team-member">
                         <div class="img-wrapper">
-                            <img src="/assets/team_1.jpg" alt="">
+                            <img src="{{ url_for('static', filename='assets/team_1.jpg') }}" alt="">
                             <div class="overlay"></div>
                             <div class="social-links">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -353,7 +355,7 @@
                 <div class="col-lg-4">
                     <div class="team-member">
                         <div class="img-wrapper">
-                            <img src="/assets/team_2.jpg" alt="">
+                            <img src="{{ url_for('static', filename='assets/team_2.jpg') }}" alt="">
                             <div class="overlay"></div>
                             <div class="social-links">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -372,7 +374,7 @@
                 <div class="col-lg-4">
                     <div class="team-member">
                         <div class="img-wrapper">
-                            <img src="/assets/team_3.jpg" alt="">
+                            <img src="{{ url_for('static', filename='assets/team_3.jpg') }}" alt="">
                             <div class="overlay"></div>
                             <div class="social-links">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -395,7 +397,7 @@
     <section id="reviews" class="bg-color">
         <div class="owl-carousel owl-theme" id="reviews-slider">
             <div class="review">
-                <img src="./assets/team_1.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/team_1.jpg') }}" alt="">
                 <h4>Ralph Edwards</h4>
                 <small>Market Development Manager</small>
 
@@ -408,7 +410,7 @@
             </div>
 
             <div class="review">
-                <img src="./assets/team_2.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/team_2.jpg') }}" alt="">
                 <h4>Ralph Edwards</h4>
                 <small>Market Development Manager</small>
 
@@ -421,7 +423,7 @@
             </div>
 
             <div class="review">
-                <img src="./assets/team_2.jpg" alt="">
+                <img src="{{ url_for('static', filename='assets/team_3.jpg') }}" alt="">
                 <h4>Ralph Edwards</h4>
                 <small>Market Development Manager</small>
 
@@ -454,7 +456,7 @@
                 <div class="col-lg-4">
                     <div class="blog-post">
                         <a href="" class="tag">web design</a>
-                        <img src="./assets/project5.jpg" alt="">
+                        <img src="{{ url_for('static', filename='assets/project5.jpg') }}" alt="">
                         <small>12 Dec, 2009</small>
                         <h4><a href="#">Web Design in 2055</a></h4>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
@@ -465,7 +467,7 @@
                 <div class="col-lg-4">
                     <div class="blog-post">
                         <a href="" class="tag">web design</a>
-                        <img src="./assets/project4.jpg" alt="">
+                        <img src="{{ url_for('static', filename='assets/project2.jpg') }}" alt="">
                         <small>12 Dec, 2009</small>
                         <h4><a href="#">Web Design in 2055</a></h4>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
@@ -476,7 +478,7 @@
                 <div class="col-lg-4">
                     <div class="blog-post">
                         <a href="" class="tag">web design</a>
-                        <img src="./assets/project3.jpg" alt="">
+                        <img src="{{ url_for('static', filename='assets/project3.jpg') }}" alt="">
                         <small>12 Dec, 2009</small>
                         <h4><a href="#">Web Design in 2055</a></h4>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
@@ -487,7 +489,7 @@
                 <div class="col-lg-4">
                     <div class="blog-post">
                         <a href="" class="tag">web design</a>
-                        <img src="./assets/project2.jpg" alt="">
+                        <img src="{{ url_for('static', filename='assets/project1.jpg') }}" alt="">
                         <small>12 Dec, 2009</small>
                         <h4><a href="#">Web Design in 2055</a></h4>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
@@ -498,7 +500,7 @@
                 <div class="col-lg-4">
                     <div class="blog-post">
                         <a href="" class="tag">web design</a>
-                        <img src="./assets/project2.jpg" alt="">
+                        <img src="{{ url_for('static', filename='assets/project4.jpg') }}" alt="">
                         <small>12 Dec, 2009</small>
                         <h4><a href="#">Web Design in 2055</a></h4>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
@@ -548,7 +550,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-4 bg-cover"
-                                style="background-image: url('./assets/c2.jpg'); min-height: 300px;"></div>
+                                style="background-image: url('{{ url_for('static', filename='assets/c2.jpg') }}'); min-height: 300px;"></div>
                             <div class="col-lg-8">
                                 <form action="" class="row  p-lg-5 gy-3">
                                     <div class="col-12">
@@ -597,10 +599,10 @@
         </div>
     </div>
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
-    <script src="./js/app.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 
 </html>
